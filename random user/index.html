@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Choose User Wheel</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+    body {
+      font-family: "Rubik", sans-serif;
+      text-align: center;
+    }
+
+    button {
+      margin-top: 25px;
+      padding: 10px 30px;
+      font-size: 16px;
+      cursor: pointer;
+      font-family: "Rubik", sans-serif;
+      background-color: #004b7a;
+      color: #fff;
+      border: 0;
+    }
+
+    .wheel-wrapper {
+      width: 400px;
+      margin: 0 auto;
+      position: relative;
+      margin-top: 15px;
+    }
+
+    .wheel-wrapper:after {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 10px;
+      background: #000000;
+      position: absolute;
+      top: 50%;
+      right: -60px;
+      margin-top: -6px;
+    }
+
+    .winner {
+      position: absolute;
+      top: 0;
+      opacity: .7;
+      left: 50%;
+      transform: translate(-50%, -40%);
+      width: 800px;
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>😍 من هو المتحدث التالي</h2>
+  <div class="wheel-wrapper">
+    <canvas id="wheel" width="400" height="400"></canvas>
+  </div>
+  <br>
+  <button onclick="spin()">إختر</button>
+  <img class="winner" src="images/84368.gif" alt="">
+  <script src="js/script.js"></script>
+</body>
+
+</html>
