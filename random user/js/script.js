@@ -2,7 +2,6 @@ const users = [
   "Abed Elwahed",
   "Belal",
   "Ali",
-  "Yousef",
   "Ahmed",
   "Shahed",
   "Dana",
@@ -10,7 +9,6 @@ const users = [
   "Saja",
   "Rania",
   "Mahdi",
-  "Layan",
   "Mai",
   "Sahyoun",
 ];
