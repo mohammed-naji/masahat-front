@@ -1,6 +1,5 @@
 const users = [
   "Abed Elwahed",
-  "Belal",
   "Ali",
   "Yousef",
   "Shahed",
