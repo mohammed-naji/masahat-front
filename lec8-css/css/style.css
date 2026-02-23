@@ -1,0 +1,49 @@
+h2 {
+  color: red;
+}
+
+#custom {
+  color: burlywood;
+}
+
+.title {
+  color: orange;
+}
+
+/* span.box {
+  color: green;
+} */
+
+.box span {
+  color: blue;
+}
+
+.box>p {
+  color: red;
+}
+
+/* ul li:first-child { */
+/* ul li:last-child { */
+/* ul li:nth-child(odd) {
+  color: greenyellow;
+} */
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+table th,
+table td {
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #bbbbbb;
+}
