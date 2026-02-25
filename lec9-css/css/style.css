@@ -1,0 +1,36 @@
+/* 
+CSS Colors
+1. Color Name: red, blue, green, etc.
+2. RGB: rgb(red, green, blue) - values from 0 to 255
+3. RGBA: rgba(red, green, blue, alpha) - alpha is the opacity (0 to 1)
+4. Hexadecimal: #RRGGBB - where RR, GG, BB are hexadecimal values (00 to FF)
+ */
+
+h3 {
+  /* color: red; */
+  /* color: rgb(200, 200, 200); */
+  /* color: rgba(0 13 190/ 50%); */
+  /* color: rgba(0, 13, 190, .5); */
+  /* color: #887755aa; */
+}
+
+.bg {
+  /* background-color: #b5540b; */
+  background-image: url(../images/image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+/* .social {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/social.jpg);
+  display: inline-block;
+}
+
+.social.fb {
+  background-position: 30px 30px;
+} */
