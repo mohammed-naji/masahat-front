@@ -1,4 +1,4 @@
-const users = ["Dana", "Nour", "Saja", "Rania", "Mahdi", "Shahd"];
+const users = ["Dana", "Nour", "Rania", "Mahdi", "Shahd"];
 
 const canvas = document.getElementById("wheel");
 const ctx = canvas.getContext("2d");
