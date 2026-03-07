@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: "Playpen Sans Arabic", cursive;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Start Header Style */
+header {
+  background-color: #ececec;
+  padding: 20px 0;
+  box-shadow: 0px 0px 10px #b6b6b6;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+header a:hover {
+  color: #007bff;
+}
+
+/* End Header Style */
+
+/* Start Hero Style */
+.hero {
+  background-image: url(../images/photo-1505935428862-770b6f24f629.avif);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+  text-align: center;
+  color: #fff;
+}
+
+/* End Hero Style */
