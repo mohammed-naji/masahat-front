@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 300px;
+  background-color: #f00;
+}
+
+.box ul {
+  display: none;
+}
+
+.box:hover ul {
+  display: block;
+}
